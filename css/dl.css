@@ -1,0 +1,65 @@
+/*
+* @Author: hp
+* @Date:   2018-08-15 10:18:25
+* @Last Modified by:   hp
+* @Last Modified time: 2018-08-17 11:51:09
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+.top
+{
+	width: 100%;
+	height: 13.44rem;
+	background-image: url('../img/06.PNG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+input{
+     position: absolute;
+     margin-top: 6.8rem;
+     margin-left: 2.3rem;
+     border: 0;
+     background: #fcfcfc;
+     outline: none;
+}
+input:nth-child(2){
+	margin-top: 7.8rem;
+	width: 2rem;
+}
+.top a{
+	display: block;
+	width: 2.12rem;
+	height: 0.77rem;
+	background: #a7a6a4;
+	position: absolute;
+	margin-top: 9.8rem;
+	margin-left: 2.8rem;
+	border-radius: 0.4rem;
+	background-image: url('../img/选中.png');
+	background-size: 0.8rem 0.5rem;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: 0.6rem 0.1rem;
+}
+.top a:hover{
+	background: #4fedb3;
+}
+a{
+	display: block;
+	width: 1.6rem;
+    height: 0.61rem;
+    position: absolute;
+    margin-left: 5.8rem;
+    margin-top: -13.3rem;
+    position: fixed;
+}

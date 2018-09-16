@@ -1,0 +1,48 @@
+/*
+* @Author: hp
+* @Date:   2018-08-15 15:43:16
+* @Last Modified by:   hp
+* @Last Modified time: 2018-08-15 16:03:47
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+.top{
+	width: 100%;
+	height: 13.34rem;
+	background-image: url('../img/09.PNG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.top .text{
+	font-size: 0.2rem;
+	position: absolute;
+	margin-top: 6.6rem;
+	margin-left: 3.3rem;
+	color:  #fcc761;
+}
+.top a{
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	display: block;
+	margin-top: 9.5rem;
+	margin-left: 3rem;
+}
+.top a:nth-child(2){
+	width: 0.5rem;
+	height: 0.5rem;
+	display: block;
+	position: absolute;
+	margin-left: 7rem;
+	margin-top: 5.7rem;
+}

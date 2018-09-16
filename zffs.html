@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>支付方式</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-srcalable=no">
+	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="css/zffs.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<!-- 头部开始 -->
+	<header>
+		<a href="qrjq.html"></a>
+		<div class="text">确认订单</div>
+	</header>
+	<!-- 头部结束 -->
+	<!-- 顶部开始 -->
+	<div class="top">
+		<div class="top-s">
+			<a href="">订单派送至</a>
+		    <a href="">公司</a>
+		</div>
+		<p>凯通大厦学府街112 2层办公区</p>
+		<h3>张国立（男士）17603476829</h3>
+	</div>
+	<!-- 顶部结束 -->
+	<div class="center">
+		<div class="left">送达时间</div>
+		<div class="right">尽快送达（12:00送达）</div>
+		<p>准时到达服务：超时10分钟享赔付</p>
+		<h3>.............................................................................</h3>
+		<div class="bottom">
+			<i>支付方式</i>
+			<i>支付方式</i>
+		</div>
+	</div>
+	<!-- 底部开始 -->
+	<div class="button">
+		<img src="img/04.PNG" alt="">
+		<div class="t_tc"></div>
+	</div>
+	<!-- 底部结束 -->
+	<div class="tops">
+		<img src="img/09.PNG" alt="">
+		<div class="text">¥249.64</div>
+		<a class="t_del" href=""></a>
+		<a class="t_zw" href="jycg.html"></a>
+	</div>
+</body>
+</html>
+<script>
+        let zffsb=$(".button .t_tc");
+        let tops=$(".tops");
+        let del1=$(".tops .t_del");
+        let zwzfs=$(".tops .t_zw");
+        console.log(zffsb,tops,del1,zwzfs);
+
+        zffsb.click(function(){
+            tops.slideDown("slow");
+        })
+        del1.click(function(){
+            tops.slideUp("slow");
+        })
+
+
+
+</script>
